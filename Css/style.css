@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navBar1{
+    height: 138px;
+    background-color: rgb(30, 32, 43);
+}
+.navBar1 .container-fluid{
+    width: 86%;
+}
+.navBar1 .container-fluid span .tag{
+    font-size: 10px;
+    color: rgb(191, 193, 200);
+}
+ul li a.active{
+    background-color: transparent !important;
+    border: solid 2px rgb(0, 154, 216) !important;
+    color: rgb(0, 154, 216) !important;
+    border-radius: 100vh 100vh 100vh 100vh !important;
+    font-size: 13px !important;
+    padding: 3px 25px !important;
+}
+
+.search{
+    width: 100%;
+    height: 335px;
+    background-image: url(./../image/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.search .Container input{
+    width: 83%;
+    margin: 60px auto 0;
+    padding: 15px;
+    color: white;
+    border-radius: 30px;
+    background-color: rgb(30, 32, 43);
+    border-width: 0;
+}
+.search .Container button{
+    border-radius: 30px;
+    padding: 11px 40px;
+    transform: translate(500px, 63px);
+    background-color: rgb(0, 154, 216);
+    color: white;
+    position: absolute;
+}
+
+.weather{
+    height: 240px;
+    background-color: rgb(30, 32, 43);
+}
+.weather .Container{
+    width: 83%;
+    transform: translateY(-150px);
+    display: flex;
+    flex-direction: row;
+}
+.weather .Container .dayOne{
+    width: 33.3%;
+}
+.weather .Container .dayOne .head{
+    height: 40px;
+    color: rgb(191, 193, 200);
+    border-top-left-radius: 10px;
+    background-color: rgb(45, 48, 61);
+}
+.weather .Container .dayOne .body{
+    height: 300px;
+    background-color: rgb(50, 53, 68);
+    border-bottom-left-radius: 10px;
+}
+.weather .Container .dayOne .body h4{
+    color: rgb(191, 193, 200);
+}
+.weather .Container .dayOne .body h1{
+    font-size: 70px;
+    color: white;
+    font-weight: 700;
+}
+.weather .Container .dayOne .body h6{
+    color: rgb(0, 154, 216);
+    font-weight: 200;
+}
+.weather .Container .dayOne .body .details p{
+    color: rgb(182, 184, 192);
+}
+
+.weather .Container .dayTwo{
+    width: 33.3%;
+}
+.weather .Container .dayTwo .head{
+    height: 40px;
+    background-color: rgb(34, 37, 49);
+    color: rgb(191, 193, 200);
+    
+}
+.weather .Container .dayTwo .body{
+    height: 300px;
+    background-color: rgb(38, 41, 54);
+}
+.weather .Container .dayTwo .body img{
+    width: 16%;
+    padding-bottom: 15px;
+}
+.weather .Container .dayTwo .body h4{
+    color: white;
+}
+.weather .Container .dayTwo .body h5{
+    font-size: 100%;
+    color: rgb(191, 193, 200);
+    padding-bottom: 5%;
+}
+.weather .Container .dayTwo .body h6{
+    color: rgb(0, 154, 216);
+    font-weight: 200;
+}
+
+.weather .Container .dayThree{
+    width: 33.3%;
+}
+.weather .Container .dayThree .head{
+    height: 40px;
+    background-color: rgb(45, 48, 61);
+    color: rgb(191, 193, 200);
+    border-top-right-radius: 10px;
+}
+.weather .Container .dayThree .body{
+    height: 300px;
+    background-color: rgb(50, 53, 68);
+    border-bottom-right-radius: 10px;
+}
+.weather .Container .dayThree .body img{
+    width: 16%;
+    padding-bottom: 15px;
+}
+.weather .Container .dayThree .body h4{
+    color: white;
+}
+.weather .Container .dayThree .body h5{
+    font-size: 100%;
+    color: rgb(191, 193, 200);
+    padding-bottom: 5%;
+}
+.weather .Container .dayThree .body h6{
+    color: rgb(0, 154, 216);
+    font-weight: 200;
+}
+
+.weather .Container .dayOne .img{
+    width: 25%;
+}
+
+.footer .Container{
+    background-color: rgb(38, 41, 54);
+    padding: 50px 100px;
+}
+.footer .Container input{
+    width: 70%;
+    padding: 15px;
+    color: white;
+    border-radius: 30px;
+    background-color: rgb(30, 32, 43);
+    border-width: 0;
+}
+.footer .Container button{
+    border-radius: 30px;
+    padding: 11px 40px;
+    transform: translate(-117px, 3px);
+    background-color: rgb(0, 154, 216);
+    color: white;
+    position: absolute;
+}
+.footer .Container p{
+    padding-top: 40px;
+    color: rgb(191, 193, 200);
+    font-size: 13px;
+}
+.footer .Container .icons a i{
+    padding: 10px;
+    background-color: rgb(30, 32, 43);
+    border-radius: 50%;
+    transform: translateY(-120px);
+}
+
+/* ---------------------------------------------------------------------------- */
+
+.body{
+    background-color: rgb(30, 32, 43);
+    padding-bottom: 200px;
+}
+.body .goTo{
+    width: 85%;
+    background-color: rgb(38, 41, 54);
+    border-radius: 100vh 100vh 100vh 100vh;
+    font-size: 13px;
+}
+.body .goTo p{
+    color: rgb(191, 193, 200);
+}
+
+.body .contactDetail .info{
+    width: 35%;
+    margin-left: 12%;
+    border-radius: 20px;
+    background-color: rgb(38, 41, 54);
+    color: rgb(191, 193, 200);
+    padding: 250px 0 20px 20px;
+    margin-right: 10%;
+}
+.body .contactDetail i{
+    color: rgb(7, 165, 218);
+}
+.body .contactDetail .info span.partTwo a{
+    color: rgb(191, 193, 200);
+    padding-left: 5px;
+}
+.body .contactDetail .info span.partTwo .fa-envelope{
+    padding-left: 15px;
+}
+
+.body .contactDetail .contactUs{
+    width: 35%;
+    color: white;
+}
+.body .contactDetail span input{
+    width: 50%;
+    height: 45px;
+    padding: 0 0 0 15px;
+    border: solid 2px rgb(57, 60, 72);
+    border-radius: 100vh 100vh 100vh 100vh;
+    font-size: 14px;
+    background-color: rgb(30, 32, 43);
+    color: rgb(117, 117, 117);
+}
+.body .contactDetail .contactUs textarea{
+    height: 50%;
+    padding: 15px 0 0 15px;
+    font-size: 14px;
+    border: solid 2px rgb(57, 60, 72);
+    border-radius: 25px;
+    background-color: rgb(30, 32, 43);
+    color: rgb(117, 117, 117);
+}
+.body .contactDetail .contactUs button{
+    border-radius: 100vh 100vh 100vh 100vh;
+    background-color: rgb(0, 154, 216);
+    color: white;
+    padding: 10px 20px;
+    font-size: 13px;
+    transform: translateX(390px);
+}
+.body .contactDetail .contactUs p{
+    font-size: 14px;
+    color: rgb(191, 193, 200);
+}

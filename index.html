@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather web</title>
+
+    <!-- css files -->
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <!-- --------- -->
+
+    <!-- my css files -->
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/media.css">
+    <!-- ------------ -->
+</head>
+
+<body>
+
+    <nav id="navbar-example2" class="navBar1 navbar navbar-expand-lg w-100 z-3">
+        <div class="container-fluid">
+            <span class="d-flex">
+                <a href="#"><img src="image/logo.png" alt="logo"></a>
+                <span class="d-flex flex-column ps-3">
+                    <a class="navbar-brand fs-6 fw-bold text-white" href="#">Weather</a>
+                    <a href="#" class="tag text-decoration-none">tagline goes here</a>
+                </span>
+            </span>
+
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse bg-transparent" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav nav-pills d-flex justify-content-end w-100 gap-3 text-md-center">
+
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="index.html">HOME</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">News</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Live Cameras</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Photos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section id="search" class="search">
+        <div class="Container w-100 mx-auto d-flex justify-content-center">
+            <input type="text" placeholder="Find your Location..." id="searchBox" class="ps-4"/>
+            <button id="btn" class="btn">Find</button>
+        </div>
+    </section>
+
+    <section id="weatherHome" class="weather w-100 d-block">
+        <div class="Container mx-auto">
+            <div class="dayOne">
+                <div class="head d-flex justify-content-between px-4">
+                    <h6 id="dayName" class="p-0 m-0 p-2">Tuesday</h6>
+                    <p id="date" class="p-0 m-0 p-2">25June</p>
+                </div>
+                <div class="body py-4 px-4">
+                    <h4 id="name">cairo</h4>
+                    <span class="img d-flex gap-5">
+                        <h1 id="deg">40°C</h1>
+                        <img src="image/sun.webp" alt="sun" id="img">
+                    </span>
+                    <h6 id="mood" class="pt-3">sunny</h6>
+                    <div class="details d-flex gap-4">
+                        <p id="umberella"><img src="image/icon-umberella.png" alt="umberella icon">20%</p>
+                        <p id="wind"><img src="image/icon-wind.png" alt="wind icon">18km/h</p>
+                        <p id="compass"><img src="image/icon-compass.png" alt="compass icon">East</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dayTwo">
+                <div class="head d-flex justify-content-center align-items-center">
+                    <h6 id="dayNameTwo" class="p-0 m-0 p-2">Wednesday</h6>
+                </div>
+                <div class="body d-flex flex-column justify-content-lg-center align-items-center pt-md-5">
+                    <img src="image/sun.webp" alt="sun" id="imgTwo">
+                    <h4 id="degTwo">41.2°C</h4>
+                    <h5 id="compassTwo">24.8°</h5>
+                    <h6 id="moodTwo">sunny</h6>
+                </div>
+            </div>
+
+            <div class="dayThree">
+                <div class="head d-flex justify-content-center align-items-center">
+                    <h6 id="dayNameThree" class="p-0 m-0 p-2">Thursday</h6>
+                </div>
+                <div class="body d-flex flex-column justify-content-lg-center align-items-center  pt-md-5">
+                    <img src="image/sun.webp" alt="sun" id="imgThree">
+                    <h4 id="degThree">42.7°C</h4>
+                    <h5 id="compassThree">25°</h5>
+                    <h6 id="moodThree">sunny</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="Container">
+            <input type="text" placeholder="Enter your email to subscribe..." class="ps-4"/>
+            <button class="btn">subscribe</button>
+            <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            <div class="icons d-flex justify-content-lg-end gap-3 pe-5">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- js files -->
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <!-- -------- -->
+
+    <!-- my js files -->
+    <script src="JS/code.js"></script>
+    <!-- ----------- -->
+</body>
+
+</html>
